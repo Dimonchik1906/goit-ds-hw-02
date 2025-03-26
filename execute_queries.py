@@ -1,6 +1,6 @@
 import sqlite3
 
-
+#Скрипт виконання всіх запитів до БД для отримання відповіді введіть номер запиту від 1 до 14 або введіть exit для завершення
 def execute_queries(task_num: int):
     conn = sqlite3.connect("task_management_systems.db")
     cursor = conn.cursor()

@@ -1,5 +1,6 @@
 import sqlite3
 
+# скрипт створює базу даних
 def create_db():
     # читаємо файл зі скриптом для створення БД
     with open('tasks.sql', 'r') as f:

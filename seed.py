@@ -2,7 +2,7 @@ import sqlite3
 from faker import Faker
 import random
 
-
+#Скрипт заповнює нашу базу даних випадковими даними за допомоги бібліотеки Faker
 def seed_database():
     conn = sqlite3.connect("task_management_systems.db")
     cursor = conn.cursor()
